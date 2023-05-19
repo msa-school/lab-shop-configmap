@@ -36,7 +36,7 @@ spec:
             periodSeconds: 5
             failureThreshold: 5
           env:
-            - name: LOG_LEVEL
+            - name: ORDER_LOG_LEVEL
               valueFrom:
                 configMapKeyRef:
                    name: config-dev
